@@ -24,7 +24,7 @@ O backend deverá disponibilizar uma API capaz de receber requisições HTTP e r
   //Rotas
   app.get('/', rotaInicial)
   app.listen(porta, () => {
-    console.log(`Servidor respondendo em: http://localhost:${porta}`)
+  console.log(`Servidor respondendo em: http://localhost:${porta}`)
 })
 -------------------------------------------------------
 4. Abra o terminal e digite para instalar o express
