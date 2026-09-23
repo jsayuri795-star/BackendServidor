@@ -7,3 +7,26 @@ Nesta primeira versão do sistema, não será necessário utilizar um banco de d
 O backend deverá disponibilizar uma API capaz de receber requisições HTTP e realizar as operações necessárias sobre os registros de inventário.
 
 # Instruções para a instlação
+1. Crie uma pasta e abra no VScode (Crie a pasta normalmente, abra no Git Bash e digite "code .")
+2. Crie um arquivo server.js dentro de uma pasta "servidor"
+3. O arquivo "server.js" deve conter
+-----------------------------------------------------
+   const express = require("express")
+   const rotaInicial = (req, res) => {
+   res.json("Back-end respondendo")
+}
+
+  //Configurações do servidor
+  const app = express()
+  app.use(express.urlencoded({ extended: true }))
+  const porta = 3000
+
+  //Rotas
+  app.get('/', rotaInicial)
+  app.listen(porta, () => {
+    console.log(`Servidor respondendo em: http://localhost:${porta}`)
+})
+-------------------------------------------------------
+4. Abra o terminal e digite para instalar o express
+npm init -y
+npm install express
