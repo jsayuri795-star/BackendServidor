@@ -143,7 +143,23 @@ Delete: http://localhost:3000/id
   "patrimonio": "PAT-00125"
 }
 ```
-
+- DELETE
+ ```JSON
+ {
+    "item": "Computador",
+    "local": "Laboratório 02",
+    "dataRegistro": "2026-09-10",
+    "valor": 5500,
+    "patrimonio": "PAT-00125"
+  },
+```
 # Exemplos de resposta
 <img width="1527" height="919" alt="image" src="https://github.com/user-attachments/assets/33cc7433-7034-4fb9-8c4e-22bafed026bc" />
+<img width="1595" height="910" alt="image" src="https://github.com/user-attachments/assets/b9c7952a-5b2c-4815-a3b6-483b5cd96dc6" />
+<img width="1515" height="940" alt="image" src="https://github.com/user-attachments/assets/8cd40a68-f8cd-411d-9560-c975be27e915" />
+<img width="1483" height="605" alt="image" src="https://github.com/user-attachments/assets/69c89a58-7081-4811-ba5e-cb7b55679523" />
+
+
+
+
 
