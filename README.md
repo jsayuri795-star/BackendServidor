@@ -98,3 +98,48 @@ Put: http://localhost:3000/id
 Delete: http://localhost:3000/id
 ```
 
+# Exemplos de requisições
+- GET
+```JSON
+[
+    
+{
+  "id":1, 
+  "item": "Notebook Dell",
+  "local": "Laboratório 01",
+  "dataRegistro": "2026-09-10",
+  "valor": 3500.00,
+  "patrimonio": "PAT-00125"
+},
+    
+{
+    "id":2,
+    "item": "Computador",
+    "local": "Laboratório 02",
+    "dataRegistro": "2026-09-10",
+    "valor": 5500.00,
+    "patrimonio": "PAT-00125"
+},
+
+{
+    "id":3,
+    "item": "Celular",
+    "local": "Laboratório 03",
+    "dataRegistro": "2026-09-10",
+    "valor": 1200.00,
+    "patrimonio": "PAT-00125"
+}
+]
+```
+
+- POST
+```JSON
+{
+  "id":4, 
+  "item": "Notebook",
+  "local": "Laboratório 09",
+  "dataRegistro": "2026-09-10",
+  "valor": 3500.00,
+  "patrimonio": "PAT-00125"
+}
+```
