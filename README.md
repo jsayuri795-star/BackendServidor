@@ -6,7 +6,7 @@ Para solucionar esse problema, a equipe de desenvolvimento decidiu criar um back
 Nesta primeira versão do sistema, não será necessário utilizar um banco de dados. Os dados deverão ser armazenados temporariamente em um arquivo JSON, simulando uma base de dados.
 O backend deverá disponibilizar uma API capaz de receber requisições HTTP e realizar as operações necessárias sobre os registros de inventário.
 
-# Instruções para a instlação
+# Instruções para a instalação
 1. Crie uma pasta e abra no VScode (Crie a pasta normalmente, abra no Git Bash e digite "code .")
 2. Crie um arquivo server.js dentro de uma pasta "servidor"
 3. O arquivo "server.js" deve conter
