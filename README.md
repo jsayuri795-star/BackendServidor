@@ -42,5 +42,52 @@ app.listen(porta, () => {
 npm init -y
 npm i express cors
 ```
+5. Abra o arquivo package.json alterando os campos
+"name":"nome_projeto",
+"main":"server.js"
+Adicionar o script:
+"dev": "node --watch server.js"
+
+```JSON
+{
+  "name": "nome_do_projeto",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node --watch server.js",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "wellifabio",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
+```
+6. Execute o servidor
+```JSON
+npm run dev
+```
+7. O resultado aparecerá no terminal assim
+```JSON
+Servidor respondendo em: http://localhost:3000
+```
+8. Quando for clicar no link, segure CTRL, então aparecerá
+```JSON
+"Back-end respondendo"
+```
+9. Crie um arquivo .gitignore contendo
+```JSON
+node_modules
+package-lock.json
+```
+
+#Tecnologias 
+VScode
+Node.js
+JavaScript
+JSON
 
 
