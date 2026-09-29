@@ -10,4 +10,37 @@ O backend deverá disponibilizar uma API capaz de receber requisições HTTP e r
 1. Crie uma pasta e abra no VScode (Crie a pasta normalmente, abra no Git Bash e digite "code .")
 2. Crie um arquivo server.js dentro de uma pasta "servidor"
 3. O arquivo "server.js" deve conter
+```JSON
+const express = require("express")
+const cors = require("cors")
+
+//Funções e códigos auxiliares, tipo: autoIncrement, totais, cálculos...
+
+//Controllers CRUD [create, read, update, delete]
+const rotaInicial = (req, res) => {
+    res.json("Back-end respondendo")
+}
+
+//Configurações do servidor
+const app = express()
+app.use(cors())
+app.use(express.urlencoded({ extended: true }))
+app.use(express.json())
+const porta = 3000
+
+//Rotas REST [post, get, put, patch, delete]
+app.get('/', rotaInicial)
+
+//Porta de entrada do servidor e saída do console
+app.listen(porta, () => {
+    console.log(`Servidor respondendo em: http://localhost:${porta}`)
+})
+
+```
+4. Abra o terminal do VSCode e digite os comandos para iniciar o projeto e instalar as dependências
+```JSON
+npm init -y
+npm i express cors
+```
+
 
