@@ -85,10 +85,15 @@ package-lock.json
 ```
 
 # Tecnologias 
+- VScode
+- Node.js
+- JavaScript
+- JSON
 
-VScode
-Node.js
-JavaScript
-JSON
+# Rotas disponíveis
+Post: http://localhost:3000
+Get: http://localhost:3000
+Put: http://localhost:3000/id
+Delete: http://localhost:3000/id
 
 
