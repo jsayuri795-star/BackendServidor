@@ -91,9 +91,10 @@ package-lock.json
 - JSON
 
 # Rotas disponíveis
+```JSON
 Post: http://localhost:3000
 Get: http://localhost:3000
 Put: http://localhost:3000/id
 Delete: http://localhost:3000/id
-
+```
 
