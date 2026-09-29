@@ -143,3 +143,7 @@ Delete: http://localhost:3000/id
   "patrimonio": "PAT-00125"
 }
 ```
+
+# Exemplos de resposta
+<img width="1527" height="919" alt="image" src="https://github.com/user-attachments/assets/33cc7433-7034-4fb9-8c4e-22bafed026bc" />
+
